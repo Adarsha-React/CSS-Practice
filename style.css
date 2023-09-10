@@ -1,28 +1,27 @@
-#box-1 {
-    width: 100px;
-    height: 230px;
+.navbar {
+    width: full;
+    height: 50px;
     border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+    background-color: #0f1111;
+    color: white;
 }
 
-#circle1 {
-    width: 50px;
-    height: 50px;
-    background-color: red;
-    margin: 20px;
-    border-radius: 50%;
-}
-#circle2 {
-    width: 50px;
-    height: 50px;
-    background-color: yellow;
-    border-radius: 50%;
-    margin: 20px;
+a{
+    text-decoration: none;
+    color: white;
 }
 
-#circle3 {
-    width: 50px;
-    height: 50px;
-    background-color: green;
-    border-radius: 50%;
-    margin: 20px;
+.search-box {
+    padding:2px;
+    outline:none;
+}
+
+.seach-btn{
+    background-color: #f08800;
+    color: white;
+    padding: 2px;
 }
