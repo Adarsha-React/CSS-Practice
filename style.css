@@ -1,12 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: serif;
+    
+}
+
 .navbar {
-    width: full;
+    width: 100%;
     height: 50px;
     border: 1px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 10px 0px 10px;
-    background-color: #0f1111;
+    background-color: lightslategray;
     color: white;
 }
 
@@ -18,10 +29,69 @@ a{
 .search-box {
     padding:2px;
     outline:none;
+    border-radius: 5px;
 }
 
 .seach-btn{
     background-color: #f08800;
     color: white;
     padding: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+footer {
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+
+#container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 300px;
+    border: 1px solid black;
+    align-items: center;
+    margin: 2px;
+}
+
+#box-1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+#box-2{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+#box-3{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+#box-4{
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+#box-5{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
 }
